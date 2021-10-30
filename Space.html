@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .border {
+            background-color: burlywood;
+            width: 400px;
+            height: 300px;
+            border: 20px outset brown !important;
+        }
+
+        .content {
+            background-color: bisque;
+        }
+
+        .t1,
+        .t2 {
+            background-color: burlywood;
+            border: 1px solid black;
+        }
+
+        .row {
+            border: 4px solid black;
+        }
+
+        h2 {
+            font-size: 124px;
+        }
+    </style>
+</head>
+<body> <div class="container-fluid bg-success h-100 text-warning text-centre">
+    <header>
+        <h1 class="display-1"> Anime!</h1>
+        </header>
+    <div class="card p-2 m-1">
+        <div class="row ">
+            <div class="col-md-3">
+                <img class="img-fluid w-100"
+                    src="tokyo manjiki.jfif"
+                    alt=""
+                    height= 300px
+                    width="400">
+
+                <div class="card-header text-center">
+                    <p class="lead">Post 1</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Tokyo Revengers
+                    </h5>
+                    <p class="card-text">This is Tokyo Manjiki Gang also known as Toman.</p>
+                </div>
+                <div class="card-footer">
+                    <p class="text-muted">Author: Alvina (30/10/21)</p>
+                    <p class="card footer">I really like anime!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card p-2 m-1">
+    <div class="row ">
+        <div class="col-md-3">
+            <img class="img-fluid w-100"
+                src="tpn.png"
+                alt=""
+                height= 300px
+                width="400">
+
+            <div class="card-header text-center">
+                <p class="lead">Post 2</p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card-body">
+                <h5 class="card-title">
+                   The Promised Neverland
+                </h5>
+                <p class="card-text">This is The promise Neverland one of my favorite animes!</p>
+            </div>
+            <div class="card-footer">
+                <p class="text-muted">Author: Alvina (30/10/21)</p>
+                <p class="card footer">This is about some kids in an orpgange.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card p-2 m-1">
+    <div class="row ">
+        <div class="col-md-3">
+            <img class="img-fluid w-100"
+                src="Demon Slayer.jfif"
+                alt=""
+                height= 300px
+                width="400">
+
+            <div class="card-header text-center">
+                <p class="lead">Post 3</p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Hello and Welcome!
+                </h5>
+                <p class="card-text">This is Demon Slayer</p>
+            </div>
+            <div class="card-footer">
+                <p class="text-muted">Author: Alvina (30/09/21)</p>
+                <p class="card footer">Its about a boy who's parents died from a demon attack.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container-fluid bg-primary h-100 text-white text-center">
+    <header>
+        <h1 class="display-1">Timer</h1>
+    </header>
+    <div class="border m-auto p-4">
+        <div class="content w-100 h-100 px-2">
+            <div class="row h-100">
+                <div class="col-6 t2 pt-4">
+                    <h2 id="t2">0</h2>
+                </div>
+                <div class="col-6 t1 pt-4">
+                    <h2 id="t1">0</h2>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <button class="btn btn-success" onclick="starttimer()">
+        Start
+    </button>
+    <a class="btn btn-danger" role="button" href="session20.html">
+        Stop
+    </a>
+</div>
+<ul>
+    <li class="nav-item">
+    <a class="nav-item" href="">Home</a>
+</li>
+<li class="nav-item">
+    <a class="nav-item" herf>About </a>
+</li>
+<li class="nav-item">
+    <a class="nav-item" herf>Contact</a>
+</li>
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Main Charecter</th>
+            <th scope="col">Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Tokyo Revengers</td>
+            <td>Hanagaki Takemichi</td>
+            <td>7.5 / 10 </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Demon Slayer</td>
+            <td>Tanjiro Kamando</td>
+            <td>7.5 / 10</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>My Hero Academia </td>
+            <td>Izuku Midoria</td>
+            <td>9 / 10</td>
+        </tr>
+    </tbody>
+</table>
+</ul>
+<h3> I like anime, do you like anime?, I love anime! </h3>
+</body>
+<script>
+var timer = false;
+var t1 = 0
+var t2 = 0
+
+function starttimer() {
+    var ticktock = setInterval(() => {
+        if (t1 == 9) {
+            t1 = -1;
+            t2 = t2 + 1;
+        }
+        t1 = t1 + 1;
+        document.getElementById("t1").innerText =
+            t1;
+        document.getElementById("t2").innerText =
+            t2;
+    }, 1000);
+}
+</script>
+
+    
+</body>
+</html>
